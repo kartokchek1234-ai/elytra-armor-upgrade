@@ -1,7 +1,8 @@
 name: Build Fabric mod
+
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -19,17 +20,19 @@ jobs:
           distribution: temurin
           java-version: '25'
           cache: gradle
-      - name: Set up Gradle
-        uses: gradle/actions/setup-gradle@v4
-      - name: Build
+      - name: Unpack project
         run: |
-          if [ -f ./gradlew ]; then chmod +x ./gradlew; ./gradlew --no-daemon clean build
-          else gradle --no-daemon clean build
-          fi
+          tar -xzf project.tar.gz
+          chmod +x elytra-armor-upgrade-crashfix/gradlew
+      - name: Build
+        working-directory: elytra-armor-upgrade-crashfix
+        run: ./gradlew --no-daemon clean build
       - name: Upload mod JAR
         uses: actions/upload-artifact@v4
         with:
-          name: elytra-armor-upgrade-jar
-          path: build/libs/*.jar
+          name: elytra-armor-upgrade-fabric-26.3
+          path: |
+            elytra-armor-upgrade-crashfix/build/libs/elytra-armor-upgrade-*.jar
+            !elytra-armor-upgrade-crashfix/build/libs/*-sources.jar
           if-no-files-found: error
           retention-days: 14

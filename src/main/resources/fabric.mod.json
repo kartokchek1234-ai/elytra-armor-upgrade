@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "elytra_armor_upgrade",
+  "version": "${version}",
+  "name": "Бронированные элитры",
+  "description": "Последовательные улучшения элитр, реальные характеристики брони и чары нагрудника.",
+  "authors": ["Elytra Armor Upgrade"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {"main": ["io.github.elytraarmorupgrade.ElytraArmorUpgrade"]},
+  "depends": {"fabricloader": ">=0.19.5", "minecraft": "~26.3", "java": ">=25", "fabric-api": "*"}
+}

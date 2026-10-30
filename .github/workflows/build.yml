@@ -19,19 +19,16 @@ jobs:
         with:
           distribution: temurin
           java-version: '25'
-      - name: Unpack project
-        run: |
-          tar -xzf project.tar.gz
-          chmod +x elytra-armor-upgrade-crashfix/gradlew
       - name: Build
-        working-directory: elytra-armor-upgrade-crashfix
-        run: ./gradlew --no-daemon clean build
+        run: |
+          chmod +x gradlew
+          ./gradlew --no-daemon clean build
       - name: Upload mod JAR
         uses: actions/upload-artifact@v4
         with:
           name: elytra-armor-upgrade-fabric-26.3
           path: |
-            elytra-armor-upgrade-crashfix/build/libs/elytra-armor-upgrade-*.jar
-            !elytra-armor-upgrade-crashfix/build/libs/*-sources.jar
+            build/libs/elytra-armor-upgrade-*.jar
+            !build/libs/*-sources.jar
           if-no-files-found: error
           retention-days: 14

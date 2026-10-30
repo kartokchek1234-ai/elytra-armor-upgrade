@@ -19,7 +19,6 @@ jobs:
         with:
           distribution: temurin
           java-version: '25'
-          cache: gradle
       - name: Unpack project
         run: |
           tar -xzf project.tar.gz

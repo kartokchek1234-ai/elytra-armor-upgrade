@@ -1,0 +1,18 @@
+{
+  "item.elytra_armor_upgrade.reinforced_elytra":"Усиленные элитры I",
+  "item.elytra_armor_upgrade.reinforced_elytra.lore.1":"Уровень улучшения: I",
+  "item.elytra_armor_upgrade.reinforced_elytra.lore.2":"Броня: +3",
+  "item.elytra_armor_upgrade.reinforced_elytra.lore.3":"Прочность брони: +0",
+  "item.elytra_armor_upgrade.reinforced_elytra.lore.4":"Сохраняют возможность полёта",
+  "item.elytra_armor_upgrade.armored_elytra":"Бронированные элитры II",
+  "item.elytra_armor_upgrade.armored_elytra.lore.1":"Уровень улучшения: II",
+  "item.elytra_armor_upgrade.armored_elytra.lore.2":"Броня: +5",
+  "item.elytra_armor_upgrade.armored_elytra.lore.3":"Прочность брони: +1",
+  "item.elytra_armor_upgrade.armored_elytra.lore.4":"Сохраняют возможность полёта",
+  "item.elytra_armor_upgrade.defender_elytra":"Элитры защитника III",
+  "item.elytra_armor_upgrade.defender_elytra.lore.1":"Уровень улучшения: III",
+  "item.elytra_armor_upgrade.defender_elytra.lore.2":"Броня: +8",
+  "item.elytra_armor_upgrade.defender_elytra.lore.3":"Прочность брони: +3",
+  "item.elytra_armor_upgrade.defender_elytra.lore.4":"Сопротивление отбрасыванию: +10%",
+  "item.elytra_armor_upgrade.defender_elytra.lore.5":"Сохраняют возможность полёта"
+}

@@ -1,0 +1,18 @@
+{
+  "item.elytra_armor_upgrade.reinforced_elytra":"Reinforced Elytra I",
+  "item.elytra_armor_upgrade.reinforced_elytra.lore.1":"Upgrade level: I",
+  "item.elytra_armor_upgrade.reinforced_elytra.lore.2":"Armor: +3",
+  "item.elytra_armor_upgrade.reinforced_elytra.lore.3":"Armor toughness: +0",
+  "item.elytra_armor_upgrade.reinforced_elytra.lore.4":"Retains the ability to glide",
+  "item.elytra_armor_upgrade.armored_elytra":"Armored Elytra II",
+  "item.elytra_armor_upgrade.armored_elytra.lore.1":"Upgrade level: II",
+  "item.elytra_armor_upgrade.armored_elytra.lore.2":"Armor: +5",
+  "item.elytra_armor_upgrade.armored_elytra.lore.3":"Armor toughness: +1",
+  "item.elytra_armor_upgrade.armored_elytra.lore.4":"Retains the ability to glide",
+  "item.elytra_armor_upgrade.defender_elytra":"Defender Elytra III",
+  "item.elytra_armor_upgrade.defender_elytra.lore.1":"Upgrade level: III",
+  "item.elytra_armor_upgrade.defender_elytra.lore.2":"Armor: +8",
+  "item.elytra_armor_upgrade.defender_elytra.lore.3":"Armor toughness: +3",
+  "item.elytra_armor_upgrade.defender_elytra.lore.4":"Knockback resistance: +10%",
+  "item.elytra_armor_upgrade.defender_elytra.lore.5":"Retains the ability to glide"
+}
